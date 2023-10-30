@@ -20,7 +20,7 @@ It could look like this (notice lib-dirs):
         "-defaultlib=phobos2-ldc,druntime-ldc",
     ];
     lib-dirs = [
-        "/path/to/your/libs",
+        "/path/to/your/lib",
     ];
 };
 ```
