@@ -1,6 +1,6 @@
 # Build binaries for Windows from Linux using dub
 
-Make sure you have LDC installed.
+Make sure you have LDC installed. If you need to, read [Cross compiling with LDC][1]
 
 In this example we will target x64 Windows.
 
@@ -31,3 +31,4 @@ Now, navigate to your dub-project and run
 dub build --arch=x86_64-windows-msvc
 ```
 
+[1]: <https://wiki.dlang.org/Cross-compiling_with_LDC> "Cross compiling with LDC"
